@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Digite aqui seu nome" required>
+        </div>
+        <div>
+            <label for="nome">Sobrenome</label>
+            <input type="text" id="Sobrenome" placeholder="Digite aqui seu Sobrenome" required>
+        </div>
+        <div>
+            <label for="nome">Email</label>
+            <input type="email" id="Email" placeholder="Digite aqui seu Email" required>
+        </div>
+        <div>
+            <label for="nome">Senha</label>
+            <input type="search" id="Senha" placeholder="Digite aqui seu Senha" required>
+        </div>
+
+        <!-- input radio -->
+        <div>
+            <p>Qual seu genero?</p>
+
+            <div>
+                <input type="radio" id="opcao1" name="america">
+                <label for="opcao1">menina</label>
+            </div>
+            <div>
+                <input type="radio" id="opcao2" name="america">
+                <label for="opcao2">menino</label>
+            </div>
+        </div>
+        <!-- select -->
+        <div>
+            <label for="turma">Selecione  o ano em que voce naceu:</label>
+            <select name="turma" id="turma">
+                <option disabled selected>Selecione...</option>
+                <option value="01mb"> 2007,</option>
+                <option value="01ma">2006</option>
+            </select>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
