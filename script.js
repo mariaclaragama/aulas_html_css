@@ -1,4 +1,3 @@
-@@ -1,4 +1,4 @@
 import { verificarTema, trocarTema } from "../../helpers/tema-helper.js";
 import { verificarTema, trocarTema } from "../../helpers/tema-helper.js"
 
