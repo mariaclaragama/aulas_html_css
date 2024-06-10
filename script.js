@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-@@ -7,39 +7,39 @@
 }
 
 :root {
@@ -67,7 +66,7 @@ body {
     background: var(--bg-mobile) var(--bg-color);
     background-repeat: no-repeat;
     background-size: cover;
-@@ -58,13 +58,28 @@ header {
+    header {
 }
 
 .assunto_icone {
@@ -97,7 +96,7 @@ body {
 .assunto_icone img {
     width: 100%;
 }
-@@ -115,7 +130,7 @@ main {
+ main {
 .pergunta p {
     font-style: italic;
     font-size: 14px;
@@ -106,7 +105,7 @@ body {
     margin-bottom: 12px;
 }
 
-@@ -130,13 +145,11 @@ main {
+main {
 .barra_progresso {
     background: var(--button-bg);
     height: 16px;
@@ -120,7 +119,7 @@ body {
     background: var(--purple);
     border-radius: 999px;
 }
-@@ -145,14 +158,14 @@ main {
+    main {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -136,7 +135,7 @@ body {
     font-weight: 500;
     border-radius: 12px;
     box-shadow: var(--shadow);
-@@ -210,11 +223,10 @@ main {
+    main {
     height: 40px;
     background: var(--bg-span);
     border-radius: 5px;
@@ -149,7 +148,7 @@ body {
     flex-shrink: 0;
 }
 
-@@ -225,10 +237,9 @@ main {
+    main {
     background: var(--purple);
     color: var(--white);
     width: 100%;
@@ -161,7 +160,7 @@ body {
 }
 
 .alternativas button:hover {
-@@ -264,7 +275,7 @@ main {
+   main {
     }
 
     .tema img {
@@ -170,7 +169,7 @@ body {
     }
 
     .tema button {
-@@ -274,13 +285,12 @@ main {
+    main {
 
     .tema button div {
         width: 20px;
@@ -185,7 +184,7 @@ body {
         display: flex;
         gap: 130px;
     }
-@@ -303,7 +313,7 @@ main {
+ main {
 
     .pergunta h2 {
         font-size: 36px;
@@ -194,7 +193,7 @@ body {
     }
 
     .alternativas form {
-@@ -313,7 +323,7 @@ main {
+ main {
 
     .alternativas label {
         font-size: 22px;
@@ -203,7 +202,7 @@ body {
         border-radius: 24px;
     }
 
-@@ -324,7 +334,7 @@ main {
+main {
     .alternativas div span {
         width: 56px;
         height: 56px;
